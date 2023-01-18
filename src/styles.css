@@ -1,12 +1,18 @@
+@charset "UTF-8";
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 /* --------------------------------------------------------------------------------
  * Basic settings.
  * -------------------------------------------------------------------------------- */
- html {
+html {
   font-size: 62.5%;
 }
 
@@ -101,7 +107,6 @@ body {
 .header-wrapper .btnSidenav {
   display: none;
 } */
-
 /* --------------------------------------------------------------------------------
  * footer.
  * -------------------------------------------------------------------------------- */
@@ -114,7 +119,6 @@ body {
   bottom: 0;
   background-color: #ECEFF1;
 }
-
 
 /* --------------------------------------------------------------------------------
  * Basic settings of the registering page.
@@ -154,7 +158,6 @@ body {
 /* .registering-criteria-wrapper .flat-button:hover {
   opacity: 0.8;
 } */
-
 .registering-criteria,
 .registering-functions {
   width: 770px;
@@ -218,7 +221,6 @@ body {
 .registering-criteria-wrapper .validation-error {
   margin-top: 0.2rem;
 } */
-
 .registering-criteria-wrapper p {
   margin-top: 30px;
   font-size: 1.4rem;
@@ -281,7 +283,6 @@ body {
 .registering-functions-wrapper .flat-button:disabled {
   opacity: 0.4;
 } */
-
 /* --------------------------------------------------------------------------------
  * Other Material settings.
  * -------------------------------------------------------------------------------- */
@@ -294,7 +295,6 @@ body {
 .mat-checkbox.mat-accent.mat-checkbox-checked .mat-checkbox-background {
   background-color: #F99F48;
 } */
-
 /* --------------------------------------------------------------------------------
  * Smart Phones and tablets settings.
  * -------------------------------------------------------------------------------- */

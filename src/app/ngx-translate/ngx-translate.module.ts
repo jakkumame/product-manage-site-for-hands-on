@@ -18,7 +18,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
+    CommonModule, 
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -27,6 +27,6 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  exports:[TranslateModule]
+  exports:[TranslateModule,]
 })
 export class NgxTranslateModule { }
